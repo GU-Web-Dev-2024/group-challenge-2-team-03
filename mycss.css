@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    border: 1px green solid;
+    padding: 5px;
+}
+
+.container > div{
+    padding: 10px;
+    border: 1px blue solid;
+}

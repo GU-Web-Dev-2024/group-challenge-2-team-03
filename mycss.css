@@ -1,10 +1,14 @@
-.container {
-    display: flex;
-    border: 1px green solid;
-    padding: 5px;
-}
-
-.container > div{
-    padding: 10px;
-    border: 1px blue solid;
-}
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+ 
+ #grid-container > div {
+    text-align: center;
+    background: lightgreen;
+    border: 3px solid green;
+    padding: 20px;
+ }
+ 
+ 
+ 

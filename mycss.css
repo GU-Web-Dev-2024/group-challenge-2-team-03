@@ -10,5 +10,15 @@
     padding: 20px;
  }
  
- 
+ body {
+    background-color: azure;
+}
+
+form {
+    background-color: lightcoral;
+}
+
+h1 {
+    font-family: "Century Gothic", serif;
+}
  
